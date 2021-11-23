@@ -1,0 +1,542 @@
+#!/usr/local/bin/fontforge
+//open font and reencode it
+Open($1);
+Reencode("unicode");
+
+//from 3 to あ
+Select(0u0033);
+Copy();
+Select(0u3042);
+Paste();
+
+//from e to い
+Select(0u0065);
+Copy();
+Select(0u3044);
+Paste();
+
+//from 4 to う
+Select(0u0034);
+Copy();
+Select(0u3046);
+Paste();
+
+//from 5 to え
+Select(0u0035);
+Copy();
+Select(0u3048);
+Paste();
+
+//from 6 to お
+Select(0u0036);
+Copy();
+Select(0u304A);
+Paste();
+
+//from t to か
+Select(0u0074);
+Copy();
+Select(0u304B);
+Paste();
+
+//from g to き
+Select(0u0067);
+Copy();
+Select(0u304D);
+Paste();
+
+//from h to く
+Select(0u0068);
+Copy();
+Select(0u304F);
+Paste();
+
+//from : to け
+Select(0u003A);
+Copy();
+Select(0u3051);
+Paste();
+
+//from b to こ
+Select(0u0062);
+Copy();
+Select(0u3053);
+Paste();
+
+//from x to さ
+Select(0u0078);
+Copy();
+Select(0u3055);
+Paste();
+
+//from d to し
+Select(0u0064);
+Copy();
+Select(0u3057);
+Paste();
+
+//from r to す
+Select(0u0072);
+Copy();
+Select(0u3059);
+Paste();
+
+//from p to せ
+Select(0u0070);
+Copy();
+Select(0u305B);
+Paste();
+
+//from c to そ
+Select(0u0063);
+Copy();
+Select(0u305D);
+Paste();
+
+//from q to た
+Select(0u0071);
+Copy();
+Select(0u305F);
+Paste();
+
+//from a to ち
+Select(0u0061);
+Copy();
+Select(0u3061);
+Paste();
+
+//from z to つ
+Select(0u007A);
+Copy();
+Select(0u3064);
+Paste();
+
+//from w to て
+Select(0u0077);
+Copy();
+Select(0u3066);
+Paste();
+
+//from s to と
+Select(0u0073);
+Copy();
+Select(0u3068);
+Paste();
+
+//from u to な
+Select(0u0075);
+Copy();
+Select(0u306A);
+Paste();
+
+//from i to に
+Select(0u0069);
+Copy();
+Select(0u306B);
+Paste();
+
+//from 1 to ぬ
+Select(0u0031);
+Copy();
+Select(0u306C);
+Paste();
+
+//from , to ね
+Select(0u002C);
+Copy();
+Select(0u306D);
+Paste();
+
+//from k to の
+Select(0u006B);
+Copy();
+Select(0u306E);
+Paste();
+
+//from f to は
+Select(0u0066);
+Copy();
+Select(0u306F);
+Paste();
+
+//from v to ひ
+Select(0u0076);
+Copy();
+Select(0u3072);
+Paste();
+
+//from 2 to ふ
+Select(0u0032);
+Copy();
+Select(0u3075);
+Paste();
+
+//from ^ to へ
+Select(0u005E);
+Copy();
+Select(0u3078);
+Paste();
+
+//from - to ほ
+Select(0u002D);
+Copy();
+Select(0u307B);
+Paste();
+
+//from j to ま
+Select(0u006A);
+Copy();
+Select(0u307E);
+Paste();
+
+//from n to み
+Select(0u006E);
+Copy();
+Select(0u307F);
+Paste();
+
+//from ] to む
+Select(0u005D);
+Copy();
+Select(0u3080);
+Paste();
+
+//from / to め
+Select(0u002F);
+Copy();
+Select(0u3081);
+Paste();
+
+//from m to も
+Select(0u006D);
+Copy();
+Select(0u3082);
+Paste();
+
+//from 7 to や
+Select(0u0037);
+Copy();
+Select(0u3084);
+Paste();
+
+//from 8 to ゆ
+Select(0u0038);
+Copy();
+Select(0u3086);
+Paste();
+
+//from 9 to よ
+Select(0u0039);
+Copy();
+Select(0u3088);
+Paste();
+
+//from o to ら
+Select(0u006F);
+Copy();
+Select(0u3089);
+Paste();
+
+//from l to り
+Select(0u006C);
+Copy();
+Select(0u308A);
+Paste();
+
+//from . to る
+Select(0u002E);
+Copy();
+Select(0u308B);
+Paste();
+
+//from ; to れ
+Select(0u003B);
+Copy();
+Select(0u308C);
+Paste();
+
+//from _ to ろ
+Select(0u005F);
+Copy();
+Select(0u308D);
+Paste();
+
+//from 0 to わ
+Select(0u0030);
+Copy();
+Select(0u308F);
+Paste();
+
+//from N to ゐ
+Select(0u004e);
+Copy();
+Select(0u3090);
+Paste();
+
+//from O to ゑ
+Select(0u004f);
+Copy();
+Select(0u3091);
+Paste();
+
+//from ! to を
+Select(0u0021);
+Copy();
+Select(0u3092);
+Paste();
+
+//from y to ん
+Select(0u0079);
+Copy();
+Select(0u3093);
+Paste();
+
+//from # to ぁ
+Select(0u0023);
+Copy();
+Select(0u3041);
+Paste();
+
+//from E to ぃ
+Select(0u0045);
+Copy();
+Select(0u3043);
+Paste();
+
+//from $ to ぅ
+Select(0u0024);
+Copy();
+Select(0u3045);
+Paste();
+
+//from % to ぇ
+Select(0u0025);
+Copy();
+Select(0u3047);
+Paste();
+
+//from & to ぉ
+Select(0u0026);
+Copy();
+Select(0u3049);
+Paste();
+
+//from ' to ゃ
+Select(0u0027);
+Copy();
+Select(0u3083);
+Paste();
+
+//from ( to ゅ
+Select(0u0028);
+Copy();
+Select(0u3085);
+Paste();
+
+//from ) to ょ
+Select(0u0029);
+Copy();
+Select(0u3087);
+Paste();
+
+//from Y to っ
+Select(0u0059);
+Copy();
+Select(0u3063);
+Paste();
+
+//from T to が
+Select(0u0054);
+Copy();
+Select(0u304C);
+Paste();
+
+//from G to ぎ
+Select(0u0047);
+Copy();
+Select(0u304E);
+Paste();
+
+//from H to ぐ
+Select(0u0048);
+Copy();
+Select(0u3050);
+Paste();
+
+//from * to げ
+Select(0u002A);
+Copy();
+Select(0u3052);
+Paste();
+
+//from B to ご
+Select(0u0042);
+Copy();
+Select(0u3054);
+Paste();
+
+//from X to ざ
+Select(0u0058);
+Copy();
+Select(0u3056);
+Paste();
+
+//from D to じ
+Select(0u0044);
+Copy();
+Select(0u3058);
+Paste();
+
+//from R to ず
+Select(0u0052);
+Copy();
+Select(0u305A);
+Paste();
+
+//from P to ぜ
+Select(0u0050);
+Copy();
+Select(0u305C);
+Paste();
+
+//from C to ぞ
+Select(0u0043);
+Copy();
+Select(0u305E);
+Paste();
+
+//from Q to だ
+Select(0u0051);
+Copy();
+Select(0u3060);
+Paste();
+
+//from A to ぢ
+Select(0u0041);
+Copy();
+Select(0u3062);
+Paste();
+
+//from Z to づ
+Select(0u005A);
+Copy();
+Select(0u3065);
+Paste();
+
+//from W to で
+Select(0u0057);
+Copy();
+Select(0u3067);
+Paste();
+
+//from S to ど
+Select(0u0053);
+Copy();
+Select(0u3069);
+Paste();
+
+//from F to ば
+Select(0u0046);
+Copy();
+Select(0u3070);
+Paste();
+
+//from V to び
+Select(0u0056);
+Copy();
+Select(0u3073);
+Paste();
+
+//from " to ぶ
+Select(0u0022);
+Copy();
+Select(0u3076);
+Paste();
+
+//from ~ to べ
+Select(0u007E);
+Copy();
+Select(0u3079);
+Paste();
+
+//from = to ぼ
+Select(0u003D);
+Copy();
+Select(0u307C);
+Paste();
+
+//from I to ぱ
+Select(0u0049);
+Copy();
+Select(0u3071);
+Paste();
+
+//from J to ぴ
+Select(0u004A);
+Copy();
+Select(0u3074);
+Paste();
+
+//from K to ぷ
+Select(0u004B);
+Copy();
+Select(0u3077);
+Paste();
+
+//from L to ぺ
+Select(0u004C);
+Copy();
+Select(0u307A);
+Paste();
+
+//from M to ぽ
+Select(0u004D);
+Copy();
+Select(0u307D);
+Paste();
+
+//from < to 、
+Select(0u003C);
+Copy();
+Select(0u3001);
+Paste();
+
+//from > to 。
+Select(0u003E);
+Copy();
+Select(0u3002);
+Paste();
+
+//from ? to ・
+Select(0u003F);
+Copy();
+Select(0u30FB);
+Paste();
+
+//from ¥ to ー
+Select(0u00A5);
+Copy();
+Select(0u30FC);
+Paste();
+
+//from @ to ゛
+Select(0u0040);
+Copy();
+Select(0u309B);
+Paste();
+
+//from [ to ゜
+Select(0u005B);
+Copy();
+Select(0u309C);
+Paste();
+
+//from ` to ゔ
+Select(0u0060);
+Copy();
+Select(0u3094);
+Paste();
+
+//generate font
+a = $1 + "_ed.ttf";
+Generate(a);
